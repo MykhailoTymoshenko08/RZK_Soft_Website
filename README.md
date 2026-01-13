@@ -1,3 +1,13 @@
+# RZK Soft Website
+## Цілі покращення:
+- Перехід на Framework (React та Next.js)
+- Використання Tailwind CSS
+- Анімації (Framer Motion або GSAP)
+- Централізоване керування даними
+- ООП
+- 
+## Структура проєкту:
+```text
 rzk-website/
 ├── app/                # Основна логіка, сторінки та роутинг (App Router)
 │   ├── layout.js       # "Скелет": тут будуть Header та Footer (спільні для всіх сторінок)
@@ -20,3 +30,4 @@ rzk-website/
 ├── next.config.js      # Конфігурація Next.js
 ├── tailwind.config.js  # Налаштування твоїх кольорів та шрифтів
 └── package.json        # Список встановлених бібліотек
+```
